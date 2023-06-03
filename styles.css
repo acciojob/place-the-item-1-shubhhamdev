@@ -1,2 +1,15 @@
+.holder {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-basis: 23%; /* Adjust this value as needed to fit the desired number of items per row */
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
 
 /* Your CSS Code here. */
